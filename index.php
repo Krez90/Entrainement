@@ -9,13 +9,13 @@
     
 ?> -->
 <?php
-$tab = array('PC'=> 'Ordinateur', 'Tel'=> 'Smartphone', 'IOS'=>'');
+function calculimc($poids, $taille){
+    $imc = ($poids)/$taille*$taille;
+    return $imc;
+}
+$imc = calculimc(50, 180);
+{
+    echo 'L\'imc est de : ' . $imc . '.';
+}
 
-foreach($tab as $valeur)
-if(!empty($valeur)){
-    echo '<p>Il y a ' . $valeur . ' dans le tableau</p>';
-}
-else{
-    echo '<p> Le tableau ' . $valeur . ' est vide</p>';
-}
-?>
+
