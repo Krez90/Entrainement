@@ -1,0 +1,10 @@
+[Thu Sep 20 17:29:03.057140 2018] [access_compat:error] [pid 6909] [client 138.68.29.214:49720] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Thu Sep 20 17:29:07.632686 2018] [access_compat:error] [pid 6906] [client 35.230.58.15:59244] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Thu Sep 20 17:39:54.068921 2018] [access_compat:error] [pid 6909] [client 35.156.224.164:57315] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Thu Sep 20 17:48:18.204358 2018] [access_compat:error] [pid 7439] [client 23.27.152.52:43957] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Thu Oct 04 14:13:59.673979 2018] [access_compat:error] [pid 4489] [client 52.213.149.187:34114] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Tue Oct 09 05:15:24.123753 2018] [access_compat:error] [pid 22497] [client 165.227.67.193:34884] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Wed Oct 17 15:26:01.824631 2018] [access_compat:error] [pid 31802] [client 188.165.254.127:49812] AH01797: client denied by server configuration: /home/bilelh/www/private/wp-login.php
+[Wed Oct 17 15:27:47.127944 2018] [access_compat:error] [pid 31807] [client 188.165.254.127:54614] AH01797: client denied by server configuration: /home/bilelh/www/private/robots.txt
+[Fri Nov 02 03:15:35.011174 2018] [access_compat:error] [pid 29203] [client 165.227.120.181:58134] AH01797: client denied by server configuration: /home/bilelh/www/private/
+[Wed Nov 07 23:07:52.588961 2018] [access_compat:error] [pid 12103] [client 138.197.72.194:60374] AH01797: client denied by server configuration: /home/bilelh/www/private/
