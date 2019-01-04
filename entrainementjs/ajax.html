@@ -5,7 +5,7 @@ var xhr = new XMLHttpRequest();
 xhr.open('GET', 'http://www.omdbapi.com/?i=tt0848228&apikey=aa168fab',true);
 xhr.send(null);
 xhr.onreadystatechange = function(){
-//console.log(this);
+console.log(this);
 if(this.readyState == 4 && this.status == 200) {
 console.log(JSON.parse(this.response).Title);
 id_imdb.innerHTML = this.response;
