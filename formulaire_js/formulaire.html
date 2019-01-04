@@ -1,0 +1,71 @@
+</section class="section4">
+    <div id="contact">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>CONTACT</h3>
+                <form method="post" action="formulaire.php" class="form">
+
+                    <label for='nom'>Nom</label></br>
+                    <input type='text' name='nom' id='nom' maxlength='20' required>
+                    <span id='missNom'></span><br>
+
+                    <label for='mail'>Email</label></br>
+                    <input type='text' name='mail' id='mail' required>
+                    <span id="missMail"></span><br>
+
+                    <label for='message'>Message</label></br>
+                    <textarea name='message' id='message' class="texte_carre"></textarea>
+                    <span id="missmess"></span><br>
+
+                    <input type='submit' value='Envoyer' id='bouton_envoi'>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        // CREATION DES VARIABLE
+        var validation = document.getElementById('bouton_envoi');
+        var nom = document.getElementById('nom');
+        var missNom = document.getElementById('missNom');
+        var nom_v = /^[a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+([-'\s][a-zA-ZéèîïÉÈÎÏ][a-zéèêàçîï]+)?$/;
+ 
+        validation.addEventListener('click', n_valid);
+
+        function n_valid(e){
+            // SI LE CHAMP EST VIDE
+            if(nom.validity.valueMissing){
+                e.preventDefault();
+                missNom.textContent = 'Prénom manquant';
+                missNom.style.color = 'red';
+                missNom.style.fontStyle = 'italic';
+            }
+            // SI LE FORMAT EST INCORRECT
+            else if (nom_v.test(nom.value) == false){
+                e.preventDefault();
+                missNom.textContent = 'Le format est incorrect';
+                missNom.style.color = 'orange';
+            }
+            else  {
+                missNom.textContent = '';
+            }
+        }
+
+        var validation = document.getElementById('bouton_envoi');
+        var mail = document.getElementById('mail');
+        var missMail = document.getElementById('missMail');
+
+        validation.addEventListener('click', m_valid);
+
+        function m_valid(e){
+            if (mail.validity.valueMissing){
+                e.preventDefault();
+                missMail.textContent  = 'Email manquant';
+                missMail.style.color = 'red';
+                missMail.style.fontStyle = 'italic';
+            }else{
+                missMail.textContent = '';
+            }
+        
+        }
