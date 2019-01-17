@@ -1,10 +1,13 @@
+<!-- un texte différent selon qu'une condition est vraie ou fausse. -->
+
+
 <?php
-
-$tableau = ['Alexandre', 'Marc', 'Maxime', 'Alexandre', 'Marc', 'Maxime'];
-
-foreach($tableau as $cle=>$valeur){
-   echo $cle.' : '.$valeur.'<br>';
-}
+$var = 11;
+ if($var<10){
+    echo "chouette il fait beau !";
+ }else{
+    echo "Non cest la merde mon pote le php";
+ }
 
 
 ?>
