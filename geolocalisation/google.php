@@ -50,6 +50,7 @@
 
               var service = new google.maps.places.PlacesService(map);
 
+              
               service.nearbySearch(request, callback);
               //var map = new google.maps.Map(document.getElementById("map"), options);
               var marker = new google.maps.Marker({position: new google.maps.LatLng(latitude,longitude,)});

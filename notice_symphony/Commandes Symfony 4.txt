@@ -1,0 +1,44 @@
+﻿
+- CREE LE PROJET :
+    - Créer un site web avec les packages de base :
+        composer create-project symfony/website-skeleton nomDuProjet
+
+- INSTALLER COMPOSER : (Nécessaire quand on récupère un projet Symfony de quelqu'un)
+    composer install
+
+_ INITIALISE TWIG : (Déja installer avec symfony/website-skeleton)
+    composer require "twig/twig:^2.0"
+
+- ACCEDER AU PROJET :
+    php bin/console server:run
+    ou
+    php -S 127.0.0.1:8000 -t public
+
+- CREER UN CONTROLLER : ( pas besoin pour le moment)
+    php bin/console make:Controller ProjectController
+
+- COMMANDES BDD :
+    - Modifier identifiant connexion dans le .Env (ligne 27)
+
+    1) Créer la BDD:
+        php bin/console doctrine:database:create
+
+    2) Crée les Entités : (src/Entity/...)
+        php bin/console make:entity nomDeTable
+            - choix du nom de la class
+
+    3) Une fois satisfait faire php bin/console make:migration (crée un fichier migration dans src/Entity/Migrations)
+
+    4) doctrine:migrations:migrate (fait la migration)
+
+    - Ajouter une table en BDD :
+        php bin/console make:entity nomDeTable (si non existant rajoute une colonne sinon ajoute une table)
+
+- AFFICHER COMMANDES SYMFONY :
+    php bin/console
+
+php bin/console make:crud
+
+ensuite valide le nom de ta nomDetable "entity"
+
+php bin/console server:run
