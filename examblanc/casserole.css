@@ -1,0 +1,41 @@
+
+@font-face{
+    font-family: "pacifico-regular";
+    src: url("../examblanc/fonts/Pacifico-Regular.ttf");
+}
+
+.h1{
+    font-family: "pacifico-regular";
+}
+.titre1{
+    font-family: "pacifico-regular";
+    color: gainsboro;
+}
+
+.row p{
+    font-family: 'pacifico-regular', cursive;
+    text-align: center;
+}
+
+/* .col-md-4{
+    margin: 0 30px;
+} */
+
+#bloc1{
+    background-color: green;
+    height: 400px;
+    margin: 0 10px;
+   
+}
+
+#bloc2{
+    background-color: yellow;
+    height: 400px;
+    margin: 0 10px;
+}
+
+#bloc3{
+    background-color: red;
+    height: 400px;
+    margin: 0 10px;
+}

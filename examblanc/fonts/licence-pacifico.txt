@@ -1,0 +1,93 @@
+Copyright 2011 Les auteurs du projet Pacifico (contact@sansoxygen.com)
+
+Ce logiciel de police est sous licence SIL Open Font License, version 1.1.
+Cette licence est copiée ci-dessous et est également disponible avec une FAQ à:
+Http://scripts.sil.org/OFL
+
+
+-------------------------------------------------- ---------
+SIL OPEN FONT LICENSE Version 1.1 - 26 février 2007
+-------------------------------------------------- ---------
+
+PRÉAMBULE
+Les objectifs de la Licence Open Font (OFL) sont de stimuler le monde entier
+Développement de projets de police collaboratifs, pour soutenir la création de polices
+Les efforts des communautés académiques et linguistiques, et de fournir un système gratuit et
+Cadre ouvert dans lequel les polices peuvent être partagées et améliorées en partenariat
+avec les autres.
+
+L'OFL permet aux polices autorisées d'être utilisées, étudiées, modifiées et
+Redistribués librement tant qu'ils ne sont pas vendus par eux-mêmes. le
+Les polices, y compris les travaux dérivés, peuvent être regroupées, intégrées,
+Redistribué et / ou vendu avec n'importe quel logiciel à condition que tout réservé
+Les noms ne sont pas utilisés par des travaux dérivés. Les polices et les dérivés,
+Cependant, ne peut être diffusé sous aucun autre type de licence. le
+L'obligation pour les polices de rester sous cette licence ne s'applique pas
+À tout document créé à l'aide des polices ou de leurs dérivées.
+
+DÉFINITIONS
+"Font Software" se réfère à l'ensemble des fichiers publiés par Copyright
+Titulaire (s) sous cette licence et clairement marqué comme tel. Ceci peut
+Inclure les fichiers sources, créer des scripts et la documentation.
+
+Le «Nom de la police réservée» désigne les noms spécifiés comme tels après la
+Déclaration (s) de copyright.
+
+"Version originale" désigne la collection de composants Font Software comme
+Distribué par le (s) titulaire (s) du droit d'auteur.
+
+La «version modifiée» désigne toute dérivée réalisée en ajoutant, en supprimant,
+Ou en remplacement - en partie ou en totalité - des composants de la
+Version originale, en changeant de format ou en transférant le logiciel de police à un
+nouvel environnement.
+
+«Auteur» désigne tout concepteur, ingénieur, programmeur, technique
+Écrivain ou autre personne qui a contribué au logiciel Font.
+
+PERMISSION ET CONDITIONS
+L'autorisation est accordée, gratuitement, à toute personne qui obtient
+Une copie du logiciel Font, pour utiliser, étudier, copier, fusionner, intégrer, modifier,
+Redistribuer et vendre des copies modifiées et non modifiées de la police
+Logiciel, sous réserve des conditions suivantes:
+
+1) Ni le logiciel Font ni aucun de ses composants individuels,
+Dans les versions originales ou modifiées, peut être vendu par lui-même.
+
+2) Les versions originales ou modifiées du logiciel Font peuvent être regroupées,
+Redistribué et / ou vendu avec n'importe quel logiciel, à condition que chaque copie
+Contient l'avis de copyright ci-dessus et cette licence. Ceux-ci peuvent être
+Inclus en tant que fichiers texte autonomes, en-têtes lisibles par l'homme ou
+Dans les champs de métadonnées lisibles par machine appropriés dans le texte ou
+Fichiers binaires tant que ces champs peuvent être facilement visualisés par l'utilisateur.
+
+3) Aucune version modifiée du logiciel Font ne peut utiliser la police réservée
+Nom (s) à moins que l'autorisation écrite explicite ne soit accordée par le correspondant
+Titulaire du droit d'auteur. Cette restriction s'applique uniquement au nom de la police primaire comme
+Présenté aux utilisateurs.
+
+4) Le (s) nom (s) du (des) titulaire (s) de droits d'auteur ou le (s) auteur (s) de la police
+Le logiciel ne doit pas être utilisé pour promouvoir, endosser ou annoncer
+Version modifiée, sauf pour confirmer la (les) contribution (s) de la
+Propriétaire (s) de droits d'auteur et auteur (s) ou avec leur écrit explicite
+autorisation.
+
+5) Le logiciel Font, modifié ou non modifié, en partie ou en totalité,
+Doit être entièrement distribué sous cette licence et ne doit pas être
+Distribué sous une autre licence. L'exigence pour les polices à
+Reste sous cette licence ne s'applique pas aux documents créés
+En utilisant le logiciel Font.
+
+RÉSILIATION
+Cette licence devient nulle et non avenue si l'une des conditions ci-dessus est
+pas rencontré.
+
+AVERTISSEMENT
+LE LOGICIEL FONT EST FOURNI "TEL QUEL", SANS GARANTIE DE QUELQUE NATURE QUE CE SOIT,
+EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, TOUTE GARANTIE DE
+LA QUALITÉ MARCHANDE, L'APTITUDE À UN USAGE PARTICULIER ET LA NON-INFRACTION
+DE DROIT D'AUTEUR, BREVET, MARQUE OU AUTRE DROIT. EN AUCUN CAS,
+LE PORTEFEUILLE DE DROIT D'AUTEUR EST RESPONSABLE DE TOUTE RÉCLAMATION, DOMMAGE OU AUTRE RESPONSABILITÉ,
+Y COMPRIS UN GÉNÉRAL, SPÉCIAL, INDIRECT, INCIDENT OU CONSÉCUTIF
+DOMMAGES, QUE CE SOIT EN ACTION DE CONTRAT, DE MANIÈRE OU AUTRE, DÉCOULANT
+DE L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL FONT OU DE
+AUTRES RENSEIGNEMENTS DANS LE LOGICIEL FONT.
