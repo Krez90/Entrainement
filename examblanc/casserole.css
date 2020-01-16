@@ -4,22 +4,45 @@
     src: url("../examblanc/fonts/Pacifico-Regular.ttf");
 }
 
-.h1{
-    font-family: "pacifico-regular";
+header{
+    background-color: red;
 }
+
 .titre1{
     font-family: "pacifico-regular";
     color: gainsboro;
 }
 
-.row p{
-    font-family: 'pacifico-regular', cursive;
-    text-align: center;
+.sous_titre{
+    color: white;
+
 }
 
-/* .col-md-4{
-    margin: 0 30px;
-} */
+.casserole{
+    height: 100px;
+    width: 130px;
+}
+
+#choix_terroir{
+    margin-top: 50px;
+}
+
+#choix_ville{
+    margin-top: 50px;
+
+}
+
+.section{
+    background-image: url(/pictos/imagefond.jpg);
+    height: 1080px;
+    width: 100%;
+
+}
+
+.corp{
+    text-align: center;
+
+}
 
 #bloc1{
     background-color: green;

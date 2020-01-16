@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Inverser une chaîne de caractères</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container text-center">
+    <h1>Jeux du plus ou moins</h1>
+    <h2>Trouvez le nombre avec le moins de coup possible !</h2>
+    <hr>
+  </div>
+  <script>
+
+function nb_aleatoire(min, max)
+{
+     var nb = min + (max-min+1)*Math.random();
+     return Math.floor(nb);
+
+}
+
+
+function PoM_manche(min, max)
+{
+     var nb = nb_aleatoire(min, max);
+     var cpt = 0;
+     var saisie;
+     var msg = 'Le nombre a deviner est compris entre ' + min + ' et ' + max + '.';
+
+     do
+     {
+          saisie = prompt(msg);
+          cpt++;
+          if(saisie > nb)
+               msg = "C'est moins";
+          else
+               msg = "C'est plus";
+     }
+     while(saisie != nb);
+
+     return cpt;
+}
+
+var cpt = 0;   // nb de manches jouees
+var best_score = 0;  // meilleur score
+var score;  // score de la partie en cours
+
+do
+{
+     score = PoM_manche(1, 100);
+     cpt++;
+     if(score < best_score || best_score == 0)
+          best_score = score;
+     continuer = confirm("Bravo, tu as gagne en " + score + " coups.\nVeux-tu rejouer ?");
+}
+while(continuer);
+
+// affichage du meilleur score
+alert("Tu as joue " + cpt + " manche(s).\nTon meilleur score est de " + best_score + " coups.");
+
+
+  </script>
+</body>
+</html>
