@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tableaux en JS</title>
+</head>
+<body>
+    <h1>Les tableaux en JS</h1>
+    
+
+    <script>
+        // Modification tableau
+
+//         let prenom = new Array("bilel", "salima", "nahil", "lina");
+//         prenom[1] = "Deborah";
+//         prenom[3] = "Ambre";
+//         // alert("La case vaut " + prenom [3]);
+
+//         var table = new Array("Pierre", "Paul", "Jacques");
+// // alert("La seconde case vaut : " + table[1]);   // on lit l'element d'indice 1
+// table[1] = "Toto";   // on le modifie
+// table[3] = "Dupont";   // on cree un nouvel element
+
+// _________________________________________
+//  Permet de connaitre la longueur du tableau
+
+// var table = new Array("Pierre", "Paul", "Jacques");
+// table[5] = "Toto";
+// table[6] = "Bibi";
+// table.sort();
+// console.log(table);
+
+// _____________________________________________________
+
+// function qui permet de parcourir un tableau numeroté avec la boucle FOR
+
+function lire1(tab)
+{
+        var chaine = "Le tableau contient :"
+        for(var i=0; i<tab.length; i++)
+                chaine += "\n" + i + " -> " + tab[i];
+        return chaine;
+        
+}
+
+// function permet de faire la moyenne dans un tableau
+function moyenne(tableau)
+{
+        var n = tableau.length;   // nombre de valeurs
+        var somme = 0;
+        for(i=0; i<n; i++)
+                somme += tableau[i];
+        return somme/n;   // somme divisee par le nombre de valeurs
+}
+
+
+    </script>
+</body>
+</html> 
